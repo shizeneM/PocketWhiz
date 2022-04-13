@@ -34,3 +34,5 @@ Push	Send changes to the curernt branch of your remote repository:
 To view current changes made locally:
 
 `git status`
+
+changes to be deleted
