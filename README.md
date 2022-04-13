@@ -30,3 +30,7 @@ Commit changes to head (but not yet to the remote repository):
 Push	Send changes to the curernt branch of your remote repository:	
 
 `git push `
+
+To view current changes made locally:
+
+`git status`
