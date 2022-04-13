@@ -3,7 +3,8 @@ This is our pocket whiz application
 Creators are Shizene Maredia, Irene Marmolejo, Ryan Tran
 
 # Git commands
-summary can be found here <https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html>
+summary can be found here:
+<https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html>
 
 Check out a repository	Create a working copy of a local repository:	
 `git clone /path/to/repository`
