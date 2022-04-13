@@ -36,3 +36,4 @@ To view current changes made locally:
 `git status`
 
 changes to be deleted
+delete 
