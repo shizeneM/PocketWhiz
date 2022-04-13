@@ -12,6 +12,6 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
         //AndroidWidgetTextView btn = findViewById(R.id.register)
 
-// we're just gonna make these changees
+
     }
 }
