@@ -72,15 +72,15 @@
         android:layout_width="150dp"
         android:layout_height="39dp"
         android:layout_marginTop="12dp"
+        android:clickable="true"
         android:ems="10"
-        android:inputType="textPassword"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
         android:textIsSelectable="false"
+        android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/loginpassword"
-        app:layout_constraintTop_toBottomOf="@+id/loginpassword"
-        android:autofillHints="forgotpassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
 
     <Button
         android:id="@+id/loginbutton"
