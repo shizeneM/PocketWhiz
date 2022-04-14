@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     viewBinding {
-        enabled = true
+        enabled= true
     }
 
     defaultConfig {
