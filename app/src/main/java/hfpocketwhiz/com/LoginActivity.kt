@@ -11,7 +11,7 @@ import android.widget.*
 import hfpocketwhiz.com.databinding.ActivityLoginBinding
 import android.widget.TextView as TextView1
 
-class LoginActivity() : AppCompatActivity(), Parcelable {
+class LoginActivity() : AppCompatActivity(){
     private lateinit var binding:ActivityLoginBinding
 
     constructor(parcel: Parcel) : this() {
@@ -32,21 +32,4 @@ class LoginActivity() : AppCompatActivity(), Parcelable {
         }
     }
 
-    override fun writeToParcel(parcel: Parcel, flags: Int) {
-
-    }
-
-    override fun describeContents(): Int {
-        return 0
-    }
-
-    companion object CREATOR : Parcelable.Creator<LoginActivity> {
-        override fun createFromParcel(parcel: Parcel): LoginActivity {
-            return LoginActivity(parcel)
-        }
-
-        override fun newArray(size: Int): Array<LoginActivity?> {
-            return arrayOfNulls(size)
-        }
-    }
 }
