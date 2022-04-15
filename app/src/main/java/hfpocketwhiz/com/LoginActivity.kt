@@ -6,8 +6,13 @@ import android.os.Bundle
 import android.widget.*
 import hfpocketwhiz.com.databinding.ActivityLoginBinding
 
+<<<<<<< HEAD
+class LoginActivity() : AppCompatActivity(){
+    private lateinit var binding:ActivityLoginBinding
+=======
 class LoginActivity() : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
+>>>>>>> 0066ad1a23e91bb6dbc90f42c589f62a9f085d58
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,8 +23,14 @@ class LoginActivity() : AppCompatActivity() {
         setContentView(viewBinding.root)
 
         viewBinding.loginbutton.setOnClickListener {
-            val loginintent = Intent(this@LoginActivity, RegisterActivity::class.java)
+            val loginintent = Intent(this@LoginActivity, MainAppLayout::class.java)
             startActivity(loginintent)
         }
     }
+<<<<<<< HEAD
+
 }
+
+=======
+}
+>>>>>>> 0066ad1a23e91bb6dbc90f42c589f62a9f085d58
