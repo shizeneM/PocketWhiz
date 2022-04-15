@@ -14,10 +14,6 @@ import android.widget.TextView as TextView1
 class LoginActivity() : AppCompatActivity(){
     private lateinit var binding:ActivityLoginBinding
 
-    constructor(parcel: Parcel) : this() {
-
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -27,9 +23,10 @@ class LoginActivity() : AppCompatActivity(){
         setContentView(viewBinding.root)
 
         viewBinding.loginbutton.setOnClickListener {
-            val loginintent = Intent(this@LoginActivity, RegisterActivity::class.java)
+            val loginintent = Intent(this@LoginActivity, MainAppLayout::class.java)
             startActivity(loginintent)
         }
     }
 
 }
+
