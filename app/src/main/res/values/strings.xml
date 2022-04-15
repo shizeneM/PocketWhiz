@@ -4,4 +4,9 @@
     <string name="username">UserName</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="login" tools:ignore="DuplicateDefinition">Login</string>
+    <string name="sample1">sample1</string>
+    <string name="todo">TODO</string>
+    <string name="example1">Example1</string>
+    <string name="_1">1</string>
+    <string name="exampletext">exampletext</string>
 </resources>
