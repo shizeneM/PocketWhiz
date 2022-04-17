@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity"
-    android:background="@drawable/bg1">
+    android:background="#007FDA"
+    tools:context=".RegisterActivity">
 
     <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register"
-        android:textColor="#02656E"
+        android:textColor="@color/white"
         android:textColorHighlight="#00838F"
         android:textSize="30dp"
         android:textStyle="bold"
@@ -130,6 +130,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:clickable="true"
         android:linksClickable="true"
         android:text="Already Registered?"
         android:textColor="@color/white"

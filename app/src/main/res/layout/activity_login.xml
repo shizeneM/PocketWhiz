@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:background="@drawable/bg1">
+    android:background="#0068D5"
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:textColor="#02656E"
+        android:textColor="@color/white"
         android:textColorHighlight="#00838F"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -29,6 +29,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
+        android:autofillHints="username"
         android:background="@drawable/inputbg"
         android:drawableStart="@drawable/ic_user"
         android:drawablePadding="5dp"
@@ -42,8 +43,7 @@
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        android:autofillHints="username" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <EditText
         android:id="@+id/loginpassword"
@@ -74,6 +74,8 @@
         android:layout_marginTop="12dp"
         android:clickable="true"
         android:ems="10"
+        android:linksClickable="true"
+        android:longClickable="true"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
         android:textIsSelectable="false"
@@ -90,13 +92,15 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/buttonbg"
+        android:clickable="true"
+        android:linksClickable="false"
+        android:longClickable="false"
         android:text="@string/login"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/forgotpassword"
-        tools:ignore="UsingOnClickInXml" />
+        app:layout_constraintTop_toBottomOf="@+id/forgotpassword" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -116,13 +120,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No Account?"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:clickable="true"
+            android:linksClickable="true"
+            android:longClickable="true"
             android:text="Register"
             android:textColor="@color/red" />
     </LinearLayout>

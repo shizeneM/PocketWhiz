@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PocketWhiz">
         <activity
+            android:name=".Taxi"
+            android:exported="false" />
+        <activity
+            android:name=".Airport"
+            android:exported="false" />
+        <activity
+            android:name=".CardView1"
+            android:exported="false" />
+        <activity
             android:name=".MainAppLayout"
             android:exported="false" />
         <activity

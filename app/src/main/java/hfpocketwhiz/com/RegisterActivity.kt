@@ -1,8 +1,8 @@
 package hfpocketwhiz.com
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import hfpocketwhiz.com.databinding.ActivityLoginBinding
 import hfpocketwhiz.com.databinding.ActivityRegisterBinding
 
 class RegisterActivity : AppCompatActivity() {
@@ -11,9 +11,13 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_register)
 
-        //val viewBinding= ActivityLoginBinding.inflate(layoutInflater)
-        //setContentView(viewBinding.root)
+        val viewBinding= ActivityRegisterBinding.inflate(layoutInflater)
+        setContentView(viewBinding.root)
+
+        viewBinding.alreadyRegistered.setOnClickListener {
+            startActivity (Intent(this@RegisterActivity, LoginActivity::class.java))
+        }
     }
 }
