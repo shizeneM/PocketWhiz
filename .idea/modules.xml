@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Desktop.PocketWhiz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Desktop.PocketWhiz.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/PocketWhiz.iml" filepath="$PROJECT_DIR$/.idea/modules/PocketWhiz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/PocketWhiz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/PocketWhiz.app.iml" />
     </modules>
   </component>
 </project>

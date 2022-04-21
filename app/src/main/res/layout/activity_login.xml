@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity"
-    android:background="@drawable/bg1">
+    android:background="@drawable/gradient_background"
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/login"
-        android:textColor="#02656E"
+        android:textColor="@color/white"
         android:textColorHighlight="#00838F"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -29,6 +29,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
+        android:autofillHints="username"
         android:background="@drawable/inputbg"
         android:drawableStart="@drawable/ic_user"
         android:drawablePadding="5dp"
@@ -42,8 +43,7 @@
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
-        android:autofillHints="username" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <EditText
         android:id="@+id/loginpassword"
@@ -67,21 +67,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginusername" />
 
-    <EditText
-        android:id="@+id/forgotpassword"
-        android:layout_width="150dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="12dp"
-        android:clickable="true"
-        android:ems="10"
-        android:text="@string/forgot_password"
-        android:textColor="@color/white"
-        android:textIsSelectable="false"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/loginpassword"
-        app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
-
     <Button
         android:id="@+id/loginbutton"
         android:layout_width="350dp"
@@ -95,7 +80,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/forgotpassword"
+        app:layout_constraintTop_toBottomOf="@+id/forgotPassword"
         tools:ignore="UsingOnClickInXml" />
 
     <LinearLayout
@@ -113,19 +98,42 @@
         app:layout_constraintTop_toBottomOf="@+id/loginbutton">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="94dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="No Account?"
-            android:textColor="@color/white"/>
+            android:textAlignment="center"
+            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:clickable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:linksClickable="true"
+            android:longClickable="true"
+            android:paddingRight="5dp"
             android:text="Register"
+            android:textAlignment="center"
             android:textColor="@color/red" />
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:longClickable="true"
+        android:text="Forgot Password?"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="@+id/loginpassword"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/loginpassword"
+        app:layout_constraintTop_toBottomOf="@+id/loginpassword" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

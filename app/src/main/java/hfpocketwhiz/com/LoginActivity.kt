@@ -3,7 +3,6 @@ package hfpocketwhiz.com
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.*
 import hfpocketwhiz.com.databinding.ActivityLoginBinding
 
 
@@ -19,8 +18,10 @@ class LoginActivity() : AppCompatActivity() {
         setContentView(viewBinding.root)
 
         viewBinding.loginbutton.setOnClickListener {
-            val loginintent = Intent(this@LoginActivity, MainAppLayout::class.java)
-            startActivity(loginintent)
+            startActivity(Intent(this@LoginActivity, MainAppLayout::class.java))
+        }
+        viewBinding.register.setOnClickListener {
+            startActivity(Intent(this@LoginActivity, RegisterActivity::class.java))
         }
     }
 }
