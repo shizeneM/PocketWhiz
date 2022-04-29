@@ -9,4 +9,15 @@
     <string name="example1">Example1</string>
     <string name="_1">1</string>
     <string name="exampletext">exampletext</string>
+    <string-array name="airplane">
+        <item>Can i please get some water?</item>
+        <item>Where is the baggage?</item>
+        <item>When is the plane arriving?</item>
+        <item>Where is the terminal?</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
+    <string name="questions">Questions</string>
+    <string name="description_text">Description Text</string>
 </resources>

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/gradient_background"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".MainActivity">
+    tools:context=".MainAppLayout">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -20,8 +20,8 @@
             android:layout_marginLeft="10sp"
             android:layout_marginTop="10sp"
             android:layout_marginRight="10sp"
-            app:cardCornerRadius="10sp"
-            app:cardBackgroundColor="@color/black">
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="10sp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -32,9 +32,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:background="@color/purple_500"
                     android:gravity="center"
-                    android:paddingTop="25sp"
-                    android:text="text"
+                    android:paddingTop="15sp"
+                    android:paddingBottom="15sp"
+                    android:text="Welcome!"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="30sp" />
@@ -55,12 +57,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/airplane"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">
@@ -74,16 +78,17 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/airplane"/>
+                        android:background="@drawable/airplane" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Airplane"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
@@ -117,10 +122,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Taxi"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
@@ -154,10 +160,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Hotel"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
@@ -191,10 +198,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Restaurant"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
@@ -228,10 +236,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Sight Seeing"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
@@ -265,10 +274,11 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="bottom"
+                        android:background="@color/purple_500"
                         android:text="Micellenous"
                         android:textAlignment="center"
-                        android:textSize="26dp"
-                        android:textColor="@color/white"/>
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
 
                 </LinearLayout>
 
