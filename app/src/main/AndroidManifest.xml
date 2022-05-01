@@ -13,7 +13,7 @@
             android:name=".Airport"
             android:exported="false" />
         <activity
-            android:name=".AIrplane"
+            android:name=".Airplane"
             android:exported="false" />
         <activity
             android:name=".Airplane"
@@ -34,6 +34,13 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
+
+
+        <activity
+            android:name=".Translation"
+            android:exported="true" />
+
+
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -44,9 +51,18 @@
             </intent-filter>
         </activity>
 
+
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>
