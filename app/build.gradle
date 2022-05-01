@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "hfpocketwhiz.com"
-        minSdk 17
+        minSdk 19
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -52,4 +52,5 @@ dependencies {
     implementation("androidx.gridlayout:gridlayout:1.0.0")
     implementation "androidx.core:core-ktx:1.7.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.google.mlkit:translate:17.0.0'
 }
