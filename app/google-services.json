@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "583392050224",
+    "project_id": "pocketwhizz-8c06d",
+    "storage_bucket": "pocketwhizz-8c06d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583392050224:android:889b881c0686229b4d01f5",
+        "android_client_info": {
+          "package_name": "hfpocketwhiz.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583392050224-egs3753uda3gk01q1q1o8i1gr3pjvrv3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hfpocketwhiz.com",
+            "certificate_hash": "23921fe2b1f88c8d4483c106e0aaa69053f5432b"
+          }
+        },
+        {
+          "client_id": "583392050224-s670uj25jhnjfft15eoi5ck35qnpjgin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA22A7-_kx2-P3P6w2ZTe5cGoMBWOp4TY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583392050224-s670uj25jhnjfft15eoi5ck35qnpjgin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,10 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
 }
-apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-android'
+//apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdk 32
@@ -13,7 +15,7 @@ android {
 
     defaultConfig {
         applicationId "hfpocketwhiz.com"
-        minSdk 17
+        minSdk 19
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -52,4 +54,6 @@ dependencies {
     implementation("androidx.gridlayout:gridlayout:1.0.0")
     implementation "androidx.core:core-ktx:1.7.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation platform('com.google.firebase:firebase-bom:29.3.1')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
 }
