@@ -16,7 +16,7 @@ class MainAppLayout : AppCompatActivity() {
         setContentView(viewBinding.root)
 
         viewBinding.airplane.setOnClickListener {
-            startActivity(Intent(this@MainAppLayout, LoginActivity::class.java))
+            startActivity(Intent(this@MainAppLayout, Translation::class.java))
         }
     }
 }
