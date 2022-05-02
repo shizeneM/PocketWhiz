@@ -32,7 +32,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="#0F6AC7"
+                    android:background="#0f6ac7"
                     android:gravity="center"
                     android:paddingTop="15sp"
                     android:paddingBottom="15sp"
@@ -78,14 +78,14 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/airplane" />
+                        android:background="@drawable/spain" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Airplane"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="Spanish"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
@@ -116,14 +116,52 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/taxi" />
+                        android:background="@drawable/portuguese" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Taxi"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="Portuguese"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="26dp" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="1dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:clickable="true"
+                android:minHeight="80dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="10sp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="111dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chinese" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="Chinese"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
@@ -154,14 +192,14 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/hotel" />
+                        android:background="@drawable/vietanam" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Hotel"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="Vietnamese"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
@@ -192,14 +230,14 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/restaurant" />
+                        android:background="@drawable/india" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Restaurant"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="Hindi"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
@@ -230,52 +268,14 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/sightseeing" />
+                        android:background="@drawable/france" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Sight Seeing"
-                        android:textAlignment="center"
-                        android:textColor="@color/white"
-                        android:textSize="26dp" />
-
-                </LinearLayout>
-
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-
-                android:layout_width="1dp"
-                android:layout_rowWeight="1"
-                android:layout_columnWeight="1"
-                android:layout_gravity="fill"
-                android:layout_margin="10sp"
-                android:clickable="true"
-                android:minHeight="80dp"
-                app:cardBackgroundColor="@color/black"
-                app:cardCornerRadius="10sp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="180dp"
-                        android:layout_height="100dp"
-                        android:layout_gravity="center"
-                        android:background="@drawable/misc" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="bottom"
-                        android:background="#0F6AC7"
-                        android:text="Micellenous"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#0f6ac7"
+                        android:text="French"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
