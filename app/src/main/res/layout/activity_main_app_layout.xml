@@ -97,12 +97,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/portuguese"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">
@@ -135,12 +137,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/chinese"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">
@@ -173,12 +177,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/vietnamese"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">
@@ -211,12 +217,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/hindi"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">
@@ -249,12 +257,14 @@
 
             <androidx.cardview.widget.CardView
 
+                android:id="@+id/french"
                 android:layout_width="1dp"
                 android:layout_rowWeight="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 android:layout_margin="10sp"
                 android:clickable="true"
+                android:longClickable="true"
                 android:minHeight="80dp"
                 app:cardBackgroundColor="@color/black"
                 app:cardCornerRadius="10sp">

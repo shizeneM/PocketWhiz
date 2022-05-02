@@ -1,6 +1,5 @@
 package hfpocketwhiz.com
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -9,20 +8,18 @@ import android.widget.TextView
 import android.widget.Toast
 import com.google.mlkit.nl.translate.TranslateLanguage
 import com.google.mlkit.nl.translate.Translation
-import com.google.mlkit.nl.translate.Translator
 import com.google.mlkit.nl.translate.TranslatorOptions
-import hfpocketwhiz.com.databinding.ActivityMainAppLayoutBinding
 
-class Translation : AppCompatActivity() {
+class Chinese : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_translation)
+        setContentView(R.layout.activity_chinese)
         val editText: EditText = findViewById(R.id.editText)
         val textView: TextView = findViewById(R.id.textView)
-        val button: Button = findViewById(R.id.button)
+        val button: Button = findViewById(R.id.chinesebutton)
         val translationConfigs = TranslatorOptions.Builder()
             .setSourceLanguage(TranslateLanguage.ENGLISH)
-            .setTargetLanguage(TranslateLanguage.SPANISH)
+            .setTargetLanguage(TranslateLanguage.CHINESE)
             .build()
         val translator = Translation.getClient(translationConfigs)
         button.setOnClickListener {
