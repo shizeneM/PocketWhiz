@@ -192,14 +192,14 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/hotel" />
+                        android:background="@drawable/vietanam" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
                         android:background="#0f6ac7"
-                        android:text="Vietanamese"
+                        android:text="Vietnamese"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="26dp" />
@@ -230,7 +230,7 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/hotel" />
+                        android:background="@drawable/india" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -268,7 +268,7 @@
                         android:layout_width="180dp"
                         android:layout_height="100dp"
                         android:layout_gravity="center"
-                        android:background="@drawable/hotel" />
+                        android:background="@drawable/france" />
 
                     <TextView
                         android:layout_width="match_parent"
