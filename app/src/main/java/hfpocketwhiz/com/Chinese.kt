@@ -14,6 +14,7 @@ class Chinese : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chinese)
+        supportActionBar?.hide()
         val editText: EditText = findViewById(R.id.editText)
         val textView: TextView = findViewById(R.id.textView)
         val button: Button = findViewById(R.id.chinesebutton)
